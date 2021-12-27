@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+    <head>
+        <title>SOKOBAN</title>
+        <meta charset="UTF-8">
+
+        <link rel="stylesheet" href="style.css">
+    </head>
+
+    <body>
+        <table>
+            <tbody>
+                <td id="td-1">
+                    <table id="inner-table">
+                        <tbody>
+                            <td>
+                                <div id="menu">
+                                    <h1>Сокобан</h1>
+                                    <div id="level">
+                                </div>
+                            </td>
+                        </tbody>
+                        <tfoot>
+                            <td>
+                                <div id="stats">
+                                </div>
+                            </td>
+                        </tfoot>
+                    </table>
+                </td>
+                <td>
+                    <canvas id="game" width="1135" height="600"></canvas>
+                </td>
+            </tbody>
+        </table>
+
+        <script type="module" src="init.js"></script>
+        <script type="module" src="Sokoban.js"></script>
+        <script type="module" src="Level.js"></script>
+        <script type="module" src="maps.js"></script>
+    </body>
+
+</html>
